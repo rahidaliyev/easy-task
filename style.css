@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: "Montserrat",sans-serif;
 }
 .container{
     background-color: #202040;
@@ -11,33 +15,47 @@ margin-left: 70px;
 font-size: 14px;
 padding-top: 20px;
 color: #ffffff;
+font-family: "Montserrat",sans-serif;
 
 
 }
 #logo{
 font-size: 24px;
-font-weight: 700;
+font-weight: bolder;
 text-decoration: none;
+padding-right: 40px;
+color: white!important;
 }
+button:hover{
+    background-color: #ff6363!important;
+    transition: .3s all ease;
+    cursor: pointer;
+ }
 #free-template-button{
     border: 2px solid rgba(255, 255, 255, 0.1);
     color: #ffffff;
     border-radius: 30px;
     height: 40px;
     width: 150px;
-    background-color: #ff6363;
+    background-color: transparent;
+    
 }
 .header a{
 cursor:pointer;
-padding-right: 50px;
+padding-right: 20px;
+font-weight: 900;
+}
+a:hover{
+    transition: .3s all ease;
+    color: #ff6363;
 }
 #contact-us-a{
-    margin-right: 300px;
+    margin-right: 450px;
 }
 
 .getpaid{
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat",sans-serif;
     margin-top: 50px;
     color: #ffffff;
     
@@ -48,25 +66,28 @@ padding-right: 50px;
     border: 1px solid black;
     margin-right: 150px;
     margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 70px;
+    
 }
 .input-container{
     width: 445px;
     height: 47px;
     border: 1px solid black;
-    
     padding: 10px;
     border-radius: 7px;
-    font-family: "Montserrat" sans-serif ;
+    font-family: "Montserrat" sans-serif;
     background-color: #ffffff;
 }
 /* input simple*/
 #email-adress-input{
-    width: 309px;
-    height: 45px;
-   border: #ffffff;
-   font-size: 16px;
+   
+   
+    border: #ffffff;
+    font-size: 16px;
 
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 
 
@@ -78,6 +99,7 @@ padding-right: 50px;
     background-color: rgb(255, 119, 119);
     color: #ffffff;
     border-radius: 7px;
+    margin-left: 120px;
 }
 
 .first-h1{
@@ -88,13 +110,18 @@ padding-right: 50px;
 }
 .first-h1>h1{
     font-size: 40px;
+    line-height: 1.2;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
    
 }
+
 
 #triangle{
     background-color: #202040;
     border: 1px solid yellow;
     margin-top: -110px;
+  
 }
 
 .company-logo-container{
@@ -116,5 +143,75 @@ padding-right: 50px;
 
 .main-text{
     height: 86.4px;
-    width: 300px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main-text>p{
+    line-height: 1.5;
+}
+
+.second-section{
+    margin-top: 70px;
+}
+.second-section-header{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1.5;
+}
+.awesome-head{
+    color: #ff6363;
+    font-size: 13px;
+   
+    font-weight: 700;
+}
+.second-p{
+    font-size: 16px!important;
+   
+}
+.features-boxes{
+margin-top: 40px;
+margin-left: 150px;
+display: flex;
+flex-wrap: wrap;
+}
+.features-cash{
+    height: 280px;
+    width: 343.33px;
+    
+}
+.img-box{
+    height: 90px;
+    width: 90px;
+   
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 5%);
+}
+.img-box>img{
+    height: 50px;
+    width: 50px;
+    padding:20px 20px 20px 20px;
+}
+.features-text{
+    width: 263.33px;
+    height: 75.6px;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight:800;
+    color: #000839;
+}
+.third-section{
+    display: flex;
+}
+.third-section-first{
+height: 380px;
+width: 364.8px;
+border: 1px solid black;
+}
+.carousel-nav>img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
