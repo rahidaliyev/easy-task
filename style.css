@@ -4,7 +4,7 @@
 }
 .container{
     background-color: #202040;
-    padding-left: 60px;
+    
 }
 .header{
 margin-left: 70px;
@@ -52,9 +52,9 @@ padding-right: 50px;
 }
 .input-container{
     width: 445px;
-    height: 67px;
+    height: 47px;
     border: 1px solid black;
-    font-size: 16px;
+    
     padding: 10px;
     border-radius: 7px;
     font-family: "Montserrat" sans-serif ;
@@ -64,7 +64,9 @@ padding-right: 50px;
 #email-adress-input{
     width: 309px;
     height: 45px;
-    
+   border: #ffffff;
+   font-size: 16px;
+
 }
 
 
@@ -82,15 +84,17 @@ padding-right: 50px;
     height: 96px;
     width: 370px;
     border: 1px solid black;
+ 
 }
 .first-h1>h1{
     font-size: 40px;
+   
 }
 
 #triangle{
     background-color: #202040;
     border: 1px solid yellow;
-  margin-top: -110px;
+    margin-top: -110px;
 }
 
 .company-logo-container{
@@ -108,4 +112,9 @@ padding-right: 50px;
 .company-logo-container>ul{
     display: flex;
     text-decoration: none;
+}
+
+.main-text{
+    height: 86.4px;
+    width: 300px;
 }
