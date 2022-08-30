@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #202040;
+    padding-left: 60px;
+}
+.header{
+margin-left: 70px;
+font-size: 14px;
+padding-top: 20px;
+color: #ffffff;
+
+
+}
+#logo{
+font-size: 24px;
+font-weight: 700;
+text-decoration: none;
+}
+#free-template-button{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: #ff6363;
+}
+.header a{
+cursor:pointer;
+padding-right: 50px;
+}
+#contact-us-a{
+    margin-right: 300px;
+}
+
+.getpaid{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    color: #ffffff;
+    
+}
+#getpaid-first{
+    width: 475px;
+    height: 297.4px;
+    border: 1px solid black;
+    margin-right: 150px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.input-container{
+    width: 445px;
+    height: 67px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: "Montserrat" sans-serif ;
+    background-color: #ffffff;
+}
+/* input simple*/
+#email-adress-input{
+    width: 309px;
+    height: 45px;
+    
+}
+
+
+/* input button */
+#input-button{
+    border: 0px;
+    height: 47px;
+    width: 116px;
+    background-color: rgb(255, 119, 119);
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.first-h1{
+    height: 96px;
+    width: 370px;
+    border: 1px solid black;
+}
+.first-h1>h1{
+    font-size: 40px;
+}
+
+#triangle{
+    background-color: #202040;
+    border: 1px solid yellow;
+  margin-top: -110px;
+}
+
+.company-logo-container{
+    display: flex;
+    border: 1px solid red;
+    padding-left: 100px;
+    margin-top: 30px;
+}
+.company-logo-container>ul li{
+    height: 113px;
+    width: 255px;
+    display: flex;
+    
+}
+.company-logo-container>ul{
+    display: flex;
+    text-decoration: none;
+}
