@@ -5,6 +5,8 @@
 }
 body{
     font-family: "Montserrat",sans-serif;
+    justify-content: center;
+    background: #f2f5f9;
 }
 .container{
     background-color: #202040;
@@ -15,7 +17,6 @@ margin-left: 70px;
 font-size: 14px;
 padding-top: 20px;
 color: #ffffff;
-font-family: "Montserrat",sans-serif;
 
 
 }
@@ -43,7 +44,7 @@ button:hover{
 .header a{
 cursor:pointer;
 padding-right: 20px;
-font-weight: 900;
+
 }
 a:hover{
     transition: .3s all ease;
@@ -55,7 +56,6 @@ a:hover{
 
 .getpaid{
     display: flex;
-    font-family: "Montserrat",sans-serif;
     margin-top: 50px;
     color: #ffffff;
     
@@ -75,7 +75,6 @@ a:hover{
     border: 1px solid black;
     padding: 10px;
     border-radius: 7px;
-    font-family: "Montserrat" sans-serif;
     background-color: #ffffff;
 }
 /* input simple*/
@@ -105,13 +104,12 @@ textarea:focus, input:focus{
 .first-h1{
     height: 96px;
     width: 370px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
  
 }
 .first-h1>h1{
     font-size: 40px;
     line-height: 1.2;
-    font-family: "Montserrat",sans-serif;
     font-weight: bold;
    
 }
@@ -119,14 +117,12 @@ textarea:focus, input:focus{
 
 #triangle{
     background-color: #202040;
-    border: 1px solid yellow;
     margin-top: -110px;
   
 }
 
 .company-logo-container{
     display: flex;
-    border: 1px solid red;
     padding-left: 100px;
     margin-top: 30px;
 }
@@ -156,13 +152,12 @@ textarea:focus, input:focus{
 }
 .second-section-header{
     text-align: center;
-    font-family: "Montserrat",sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
+   
 }
 .awesome-head{
     color: #ff6363;
     font-size: 13px;
-   
     font-weight: 700;
 }
 .second-p{
@@ -171,13 +166,16 @@ textarea:focus, input:focus{
 }
 .features-boxes{
 margin-top: 40px;
-margin-left: 150px;
+justify-content: center;
 display: flex;
 flex-wrap: wrap;
+margin-left: 80px;
+
 }
 .features-cash{
     height: 280px;
     width: 343.33px;
+    padding: 15px;
     
 }
 .img-box{
@@ -199,7 +197,7 @@ flex-wrap: wrap;
     height: 75.6px;
     line-height: 1.8;
     font-size: 14px;
-    font-weight:800;
+   
     color: #000839;
 }
 .third-section{
@@ -210,7 +208,6 @@ flex-wrap: wrap;
 .third-section-first{
 height: 380px;
 width: 364.8px;
-/* border: 1px solid black; */
 }
 .carousel-nav{
     display: flex;
@@ -249,7 +246,6 @@ width: 364.8px;
 .carousel-div{
     height: 250px;
     width: 600px;
-    /* border: 1px solid black; */
     margin-left: 100px;
     border-radius: 7px;
     box-shadow: 0 15px 30px 0 rgb(0 0 0 / 5%);
@@ -274,7 +270,6 @@ width: 364.8px;
     margin-top: 100px;
     height: 321.6px;
     width: 379.99px;
-    /* border: 1px solid black; */
     padding-right: 50px;
 }
 .fourth-section-second img{
@@ -316,6 +311,16 @@ width: 364.8px;
     margin-left: 40px;
 }
 
+
+#fifth-section-p{
+    width: 350px;
+    height: 115.2px;
+   
+}
+.fifth-section-first{
+    margin-right: 90px;
+}
+
 .fifth-section-first img{
     height: 410.54px;
     width: 635px;
@@ -324,6 +329,7 @@ width: 364.8px;
 .fifth-section-second{
     margin-top: 100px;
     margin-left: 10px;
+    width: 350px;
 }
 .fifth-section-second strong{
     font-size: 13px;
@@ -339,11 +345,13 @@ width: 364.8px;
 }
 .fifth-section-second p{
     font-size: 16px;
-    padding-bottom: 20px;
+    line-height: 1.8;
+    
    
 }
 
 .fifth-section-second button{
+    margin-top: 15px;
     font-size: 14px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     color: #ffffff;
@@ -354,13 +362,262 @@ width: 364.8px;
 }
 
 .sixth-section-header{
-height: 300px;
-width: 400px;
-border: 1px solid black;
+    margin-top: 100px;
+text-align: center;
+/* border: 1px solid black; */
 align-items: center;
+line-height: 1.5;
 }
-.sixth-section-toggle-div{
+.sixth-section-header strong{
+    color:#ff6363;
+    font-size: 13px;
+}
+.sixth-section-header h2{
+    font-size: 30px;
+}
+.toggle-area{
     display: flex;
+    justify-content: center;
+    width: 100%;
+ 
+    
+    
+}
+.toggle{
+    width: 50px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: rgb(255, 99, 99);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.toggle::before {
+    transition: all 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    left: 1px;
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px 0px;
+}
+
+#save-price{
+    height: 20px;
+    width: 67px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #ff6363;
+    color: #ffffff;
+}
+.sixth-section-boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+
+}
+.sixth-section-box{
+    height: 560.8px;
+    width: 320px;
+    /* border: 1px solid black; */
+    margin: 40px;
+}
+
+.sixth-section-box h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+.sixth-section-box p{
+    color: #a0a4ab;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+#price-dollar{
+    color: #ff6363;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 30px;
+}
+#per-month{
+    line-height: 27px;
+    overflow: hidden;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sixth-section-box ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 16px;
+    
+    
+}
+.sixth-section-box button{
+    margin-top: 15px;
+    font-size: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 30px;
+    height: 47px;
+    width: 153px;
+    background-color: #ff6363;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#center-price-box{
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.seventh-section{
+    height: 700px;
+    background-color: #ebf0f6;
+}
+.seventh-section-header{
+    text-align: center;
+    padding-top: 60px;
+}
+.seventh-section-header strong{
+    color: #ff6363;
+    line-height: 1.8;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.seventh-section-header h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.seventh-section-box{
+    height: 470px;
+    width: 236px;
+    margin: 20px;
+    background-color: #fff!important;
+   
+}
+.seventh-section-boxes{
+    display: flex;
+    justify-content: center;
+   
+}
+.seventh-section-box img{
+    height: 200px;
+    width: 236px;
+    justify-content: center;
+    padding-bottom: 20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+.seventh-section-box img:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.seventh-section-box span{
+    color: #a0a4ab;
+    font-size: 12px;
+    line-height: 1.8;
+    padding-left: 20px;
+   
+    
+}
+.seventh-section-box a{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+#seventh-section-a{
+    width: 170px;
+    padding-left: 20px;
+}
+
+.seventh-section-box p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+#seventh-section-box-vokalia{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 170px;
+}
+
+.footer{
+    height: 520px;
+    background: #f2f5f9;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer-first{
+    height: 297.84px;
+    width: 379.99px;
+    border: 1px solid black;
     
 
 }
+.footer-logo-boxes{
+    display: flex;
+    
+}
+.footer-logo-box{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 2px;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color: #f8f9fa;
+}
+.footer-logo-box i:hover{
+color: #ff6363;
+}
+
+.footer-list{
+    display: flex;
+}
+
+
+.footer-second{
+    border: 1px solid black;
+    width: 570px;
+    height: 297.84px;
+    margin-left: 130px;
+}
+
+.footer-first h3{
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.footer-first p{
+    line-height: 1.5;
+    color: #000839;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+#footer-first-p{
+    width: 349px;
+}
+
