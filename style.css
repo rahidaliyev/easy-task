@@ -10,6 +10,7 @@ body{
 }
 .container{
     background-color: #202040;
+   
     
 }
 .header{
@@ -56,7 +57,7 @@ a:hover{
 
 .getpaid{
     display: flex;
-    margin-top: 50px;
+    padding-top: 50px;
     color: #ffffff;
     
 }
@@ -68,6 +69,10 @@ a:hover{
     margin-left: 70px;
     margin-top: 70px;
     
+}
+.getpaid-second{
+    position: absolute;
+    right: 10px;
 }
 .input-container{
     width: 445px;
@@ -116,17 +121,15 @@ textarea:focus, input:focus{
 }
 
 
-/* #triangle{
+#triangle{
  
     position: relative;
-    bottom: -5px;
-    z-index: -1;
+    bottom: -4.5px;
     
-  
 }
 #triangle img{
     width: 100%;
-} */
+}
 
 .company-logo-container{
     display: flex;
@@ -657,3 +660,330 @@ transition: all 0.3s ease 0s;
     font-size: 16px;
 }
 
+@media(max-width: 740px) {
+
+ 
+.container{
+width:1140px; 
+    
+}
+.header{
+    display: none;
+}
+  .first-h1{
+    height: 96px;
+    width: 510px;
+    font-size: 40px;
+    position: relative;
+    left: 170px;
+  }
+.getpaid-second{
+    position: relative;
+    left: -450px;
+    top: 430px;
+    z-index: 1;
+    height: 442px;
+    width: 465px;
+}
+.getpaid-second img{
+ 
+    z-index: 1px;
+}
+
+.company-logo-container ul{
+    position: relative;
+    left: -120px;
+    height: 10px;
+    width: -30px;
+    
+}
+.input-container{
+   width: 510px;
+   position: relative;
+  
+   left: 160px;
+}
+#input-button{
+    position: relative;
+    right: -70px;
+}
+.main-text{
+    left: 170px;
+    position: relative;
+}
+.company-logo-container{
+    position: relative;
+    top: 210px;
+    left: 60px;
+}
+.second-section-header{
+    width: 300px;
+    position: relative;
+    left: 390px;
+    top: 260px;
+    
+}
+.awesome-head{
+    font-size: 26px;
+}
+.features-boxes{
+    position: relative;
+    top:220px;
+   display: flex;
+   left: 160px;
+   
+   
+}
+.features-cash{
+    width: 1000px;
+    /* border: 1px solid black; */
+    top: 20px;
+    position: relative;
+}
+.img-box{
+    left: 230px;
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+.img-box img{
+    height: 70px;
+    width: 70px;
+    left: 10px;
+    top: 10px;
+    position: relative;
+}
+.features-text{
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+    width: 600px;
+    text-align: center;
+}
+.features-cash h2{
+    text-align: center;
+    position: relative;
+}
+.features-text p{
+    font-size: 20px;
+}
+.third-section{
+    /* border: 1px solid black; */
+    width: 1000px;
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+.third-section-h2{
+    font-size: 30px;
+    width: 700px;
+    font-size: 40px;
+   
+}
+.third-section-first{
+    width: 870px;
+}
+.third-section-p{
+    font-size: 26px;
+    line-height: 1.5;
+  
+}
+
+.carousel-div{
+    position: relative;
+    left: -850px;
+    top:400px;
+    width: 900px;
+    height: 400px;
+    
+   
+}
+.carousel-nav img{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 50px;
+}
+.info-person-carousel{
+    position: relative;
+    left: 60px;
+}
+.carousel-nav{
+    position: relative;
+    top: 40px;
+}
+.info-person-carousel h4{
+    font-size: 24px;
+}
+.info-person-carousel p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.info-carousel p{
+font-size: 26px;
+font-weight: 700;
+position: relative;
+top: 30px;
+left: 40px;
+}
+.info-carousel{
+    width: 700px;
+}
+.inner-div-carousel{
+    width: 1000px;
+
+}
+.fourth-section{
+    position: relative;
+    top: 590px;
+}
+.fifth-section{
+    position: relative;
+    top: 900px;
+}
+.sixth-section{
+    position: relative;
+    top: 1280px;
+}
+.seventh-section{
+    position: relative;
+    top:1900px;
+}
+
+.footer{
+    position: relative;
+    top:2100px;
+}
+.fourth-section-first{
+    position: relative;
+    top: 400px;
+    left: -100px;
+}
+.fourth-section-first strong{
+   font-size: 23px;
+   position: relative;
+   left: 120px;
+   width: 1000px;
+   
+}
+.fourth-section-second{
+    position: relative;
+    left: -390px;
+}
+.fourth-section-first h2{
+    width: 500px;
+    left: 120px;
+    position: relative;
+    line-height: 1.5;
+}
+.fourth-section-first p{
+    font-size: 27px;
+    line-height: 1.5;
+    width: 850px;
+    height: 200px;
+    position: relative;
+    left: 120px;
+}
+.fourth-section-first button{
+    position: relative;
+    left: 120px;
+    top: -50px;
+}
+.fifth-section-first img{
+    position: relative;
+    left: 120px;
+}
+.fifth-section-second{
+    position: relative;
+    top: 390px;
+    
+}
+.fifth-section-second strong{
+    font-size: 23px;
+    position: relative;
+    left: -650px;
+    width: 1000px;
+} 
+.fifth-section-second h2{
+    width: 500px;
+    left: -650px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.fifth-section-second p{
+    font-size: 27px;
+    line-height: 1.5;
+    width: 850px;
+    height: 200px;
+    position: relative;
+    left: -650px;
+}
+.fifth-section-second button{
+    position: relative;
+    left: -650px;
+    top: 10px;
+}
+
+.sixth-section-header{
+    position: relative;
+    left: 150px;
+}
+.sixth-section-header strong{
+    font-size: 20px;
+}
+.sixth-section-header h2{
+    font-size: 30px;
+    line-height: 1.5;
+}
+#sixth-section-first-box{
+    border: 1px solid black;
+ 
+
+}
+.sixth-section-box h3{
+    font-size: 35px;
+    left: 400px;
+    position: relative;
+}
+.sixth-section-box p{
+    position: relative;
+    left: 350px;
+    width: 400px;
+}
+#price-dollar{
+    position: relative;
+    left: 400px;
+}
+#per-month{
+    position: relative;
+    left: 400px;
+}
+
+.sixth-section-boxes{
+    left: 200px;
+    position: relative;
+    
+}
+#center-price-box{
+border: 1px solid black;
+position: relative;
+width: 1000px;
+top: 800px;
+}
+#sixth-section-last-box{
+    position: relative;
+    top: 1500px;
+}
+.sixth-section-box ul{
+    left: 400px;
+    position: relative;
+}
+.sixth-section-box button{
+    position: relative;
+    left: 400px;
+}
+
+
+
+}
